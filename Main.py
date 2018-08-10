@@ -31,7 +31,7 @@ app.layout = html.Div([
                         html.Div([
                             html.Div([
                                 html.Div([
-                                    html.H4(u'Autorisations suspectées', style={'display': 'inline'}),
+                                    html.H4(u'Autorisations suspectees', style={'display': 'inline'}),
                                     html.Button('Fraud', className="btn btn-danger", style={
                                                                                 'float': 'right',
                                                                                 'margin-right': '15px'
@@ -69,7 +69,7 @@ app.layout = html.Div([
                                         figure={
                                             'data': [
                                                 {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
-                                                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
+                                                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montreal'},
                                             ],
                                             'layout': {
                                                 'title': 'Dash Data Visualization'
@@ -88,7 +88,7 @@ app.layout = html.Div([
                                         figure={
                                             'data': [
                                                 {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'line', 'name': 'SF'},
-                                                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'line', 'name': u'Montréal'},
+                                                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'line', 'name': u'Montreal'},
                                             ],
                                             'layout': {
                                                 'title': 'Dash Data Visualization'
