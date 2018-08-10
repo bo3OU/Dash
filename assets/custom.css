@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+
+.header {
+    overflow: hidden;
+    background-color: #fcfcfc;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}

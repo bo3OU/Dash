@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <link href="./assets/bootstrap.css" rel="stylesheet">
+        <link href="./assets/coreui.css" rel="stylesheet">
+        <link href="./assets/coreui-standalone.css" rel="stylesheet">
+        <link href="./assets/bootstrap.css" rel="stylesheet">
+        <style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #fcfcfc;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+        </style>
+    </head>
+    <body class="app header-fixed pace-done pace-done">
+            <div class="header">
+                <img src="./assets/img/s2m.jpg" height="45px" width="auto" style="margin-left:50px;" class="logo"/>
+                <div class="header-right">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary" style="margin-right:50px;">Home</button>
+                    </div>
+                </div>
+            </div>
+        <div class="app-body">
+            <div class="main">
+                <div class="container-fluid">
+                    <div class="animated fadeIn">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 style="display:inline;"><b>Autorisations suspectees</b></h4>
+                                        <button type="button" class="btn btn-danger" style="float: right;margin-right: 10px">Fraudes</button>
+                                        <button type="button" class="btn btn-primary" style="float: right;margin-right: 10px">Valider</button>
+                                        <button type="button" class="btn btn-primary" style="float: right;margin-right: 10px">Valider tous</button>
+                                    </div>
+                                    <div class="card-body">
+                                        DATA GRID TABLE
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5>title?</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        Graph
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5>title?</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        Graph
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
