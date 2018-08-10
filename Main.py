@@ -52,7 +52,7 @@ app.layout = html.Div([
 
                                 html.Div([
                                     dt.DataTable(
-                                        rows=gen_rows(50),  # initialise the rows
+                                        rows=gen_rows(40),  # initialise the rows
                                         row_selectable=True,
                                         filterable=False,
                                         sortable=True,
