@@ -5,6 +5,9 @@ Ce projet vise a présenter une visualisation de l'état des autorisations faite
 ## Commencement
 
 Ces Instructions vont vous permettre d'avoir une copie local du projet pour developpement ou deploiement. 
+```
+git clone https://github.com/bo3OU/Dash.git
+```
 
 ### Prérequis
 
