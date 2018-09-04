@@ -79,7 +79,7 @@ Contient la liste des packages requis pour le lancement de l'application.
 
 ## Auteurs
 
-* **Ali BAGHO** - [bo3ou](https://github.com/bo3ou)
+* **Ali BAGHO** - [Github Link](https://github.com/bo3ou)
 
 ## Remerciements
 
