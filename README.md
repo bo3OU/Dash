@@ -1,87 +1,84 @@
 # Dash
 
-One Paragraph of project description goes here
+Ce projet vise a présenter une visualisation de l'état des autorisations faites au sein de la CFG ainsi que les fraudes.
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Prérequis
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Ceci concerne les exigences du projet.
 
 ```
-Give the example
+dash  # The core dash backend
+dash-html-components  # HTML components
+dash-core-components  # Supercharged components
+dash-table-experiments
+dash_auth
+pyplot
+cassandra.cluster
+timeago
+base64
+pandas
 ```
 
-And repeat
+### Installation et deploiement
+
+Un tutoriel étape par étape pour avoir un environnement de production opérationnel. 
+
+Installation des packages necessaires pour le deploiement de l'application.
 
 ```
-until finished
+pip install -r requirements.txt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Lancement de l'application avec spark-submit.
 
 ```
-Give an example
+spark-submit --packages com.datastax.spark:spark-cassandra-connector_2.11:2.3.0 Main.py
 ```
 
-### And coding style tests
+## Fichiers inclus
 
-Explain what these tests test and why
+le projet 5 fichiers obligatoires et un dossier, voici une idée de ce que contient chaque fichier:
 
-```
-Give an example
-```
+### Main
 
-## Deployment
+Fichier root de l'application, permet de créer l'app et la lier a un port d'ecoute.
 
-Add additional notes about how to deploy this on a live system
+### Assets
 
-## Built With
+Contient les fichiers CSS du projet (le visuel)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+### DashFunctions
 
-## Contributing
+Contient toutes les fonctions qui vont permettre l'accès a la base de données et recupérer ou envoyer des données
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+### FirstTab
 
-## Versioning
+Contient le squelette de la premiére bar du menu de l'application
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+### SecondTab
+
+Contient le squelette de la deuxieme bar du menu de l'application
+
+### Requirements
+
+Contient la liste des packages requis pour le lancement de l'application
+
+
+## Crée par
+
+* [Dash](https://dash.plot.ly/) - The web framework used
+* [PySpark](http://spark.apache.org/docs/2.2.0/api/python/pyspark.html) - Python API for Spark
+* [Pandas](https://pandas.pydata.org/) - Python Data Analysis Library
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Ali BAGHO** - [bo3ou](https://github.com/bo3ou)
 
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
-* Inspiration
-* etc
+
