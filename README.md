@@ -2,18 +2,18 @@
 
 Ce projet vise a présenter une visualisation de l'état des autorisations faites au sein de la CFG ainsi que les fraudes.
 
-## Getting Started
+## Commencement
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Ces Instructions vont vous permettre d'avoir une copie local du projet pour developpement ou deploiement. 
 
 ### Prérequis
 
 Ceci concerne les exigences du projet.
 
 ```
-dash  # The core dash backend
-dash-html-components  # HTML components
-dash-core-components  # Supercharged components
+dash 
+dash-html-components 
+dash-core-components 
 dash-table-experiments
 dash_auth
 pyplot
@@ -49,23 +49,23 @@ Fichier root de l'application, permet de créer l'app et la lier a un port d'eco
 
 ### Assets
 
-Contient les fichiers CSS du projet (le visuel)
+Contient les fichiers CSS du projet (le visuel).
 
 ### DashFunctions
 
-Contient toutes les fonctions qui vont permettre l'accès a la base de données et recupérer ou envoyer des données
+Contient toutes les fonctions qui vont permettre l'accès a la base de données et recupérer ou envoyer des données.
 
 ### FirstTab
 
-Contient le squelette de la premiére bar du menu de l'application
+Contient le squelette de la premiére bar du menu de l'application.
 
 ### SecondTab
 
-Contient le squelette de la deuxieme bar du menu de l'application
+Contient le squelette de la deuxieme bar du menu de l'application.
 
 ### Requirements
 
-Contient la liste des packages requis pour le lancement de l'application
+Contient la liste des packages requis pour le lancement de l'application.
 
 
 ## Crée par
@@ -74,11 +74,11 @@ Contient la liste des packages requis pour le lancement de l'application
 * [PySpark](http://spark.apache.org/docs/2.2.0/api/python/pyspark.html) - Python API for Spark
 * [Pandas](https://pandas.pydata.org/) - Python Data Analysis Library
 
-## Authors
+## Auteurs
 
 * **Ali BAGHO** - [bo3ou](https://github.com/bo3ou)
 
-## Acknowledgments
+## Remerciements
 
-* Hat tip to anyone whose code was used
-
+* Salutations à toute personne dont le code a été utilisé.
+* Salutations à l'entreprise pour l'opportunité.
