@@ -15,7 +15,7 @@ configobj==4.7.2
 configparser==3.5.0
 configshell-fb==1.1.23
 coverage==3.6b3
-cryptography==1.7.2
+cryptography==3.2
 cupshelpers==1.0
 cycler==0.10.0
 dash==0.23.1
