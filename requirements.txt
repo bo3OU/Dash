@@ -65,7 +65,7 @@ kitchen==1.1.1
 kiwisolver==1.0.1
 kmod==0.1
 langtable==0.0.31
-lxml==3.2.1
+lxml==4.9.1
 MarkupSafe==1.0
 matplotlib==2.2.2
 mistune==0.8.3
