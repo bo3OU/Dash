@@ -110,7 +110,7 @@ pyOpenSSL==0.13.1
 pyparsing==2.2.0
 pyparted==3.9
 pysmbc==1.0.13
-pyspark==2.3.0
+pyspark==3.2.2
 python-augeas==0.5.0
 python-dateutil==2.7.3
 python-dmidecode==3.10.13
